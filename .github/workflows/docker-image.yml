@@ -46,7 +46,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
-         image: sujaysuj/javaappaction
+         image: komathi11/shipping
          tags: latest
          registry: docker.io
          dockerfile: docker/shipping/Dockerfile
